@@ -1,0 +1,1 @@
+This directory contains downloaded images that were used for retraining model.
