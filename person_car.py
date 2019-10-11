@@ -75,9 +75,9 @@ class SpatialConfig(Config):
 #  Dataset
 ############################################################
 
-class SpatialDataset(utils.Dataset):
+class PersonInCarDataset(utils.Dataset):
 
-    def load_spatial(self, dataset_dir, subset):
+    def load_PersonInCar(self, dataset_dir, subset):
         """Load a subset of the PersonInCar dataset.
         dataset_dir: Root directory of the dataset.
         subset: Subset to load: train or val
